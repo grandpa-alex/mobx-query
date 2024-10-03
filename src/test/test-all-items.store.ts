@@ -3,8 +3,8 @@ import { QueryClient, QueryObserverOptions } from '@tanstack/react-query';
 import axios from 'axios';
 
 import { sleep } from '../query/QueryComponent';
-import { MobXQuery } from '../mobx-query/core/MobXQuery';
-import { QueryStore } from '../mobx-query/core/query.store';
+import { MobXQuery } from '../mobx-query/MobXQuery';
+import { QueryStore } from '../mobx-query/query.store';
 
 const queryClient = new QueryClient();
 

@@ -3,7 +3,7 @@ import { QueryClient } from '@tanstack/react-query';
 import axios from 'axios';
 import { sleep } from '../query/QueryComponent';
 import { startTransition } from 'react';
-import { MobXQuery } from '../mobx-query/core/MobXQuery';
+import { MobXQuery } from '../mobx-query/MobXQuery';
 
 const queryClient = new QueryClient();
 

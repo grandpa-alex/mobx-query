@@ -4,7 +4,7 @@ import axios from 'axios';
 
 import { sleep } from '../query/QueryComponent';
 import { startTransition } from 'react';
-import { MobXMutation } from '../mobx-query/core/MobXMutation';
+import { MobXMutation } from '../mobx-query/MobXMutation';
 
 const queryClient = new QueryClient();
 
